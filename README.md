@@ -6,6 +6,8 @@ git clone https://github.com/mcomtech/lamp-docker-compose.git
 
 cd lamp-docker-compose
 
+cp sample.env .env
+
 docker-compose up -d
 
 เข้าใช้งานทาง http://localhost ได้เลย

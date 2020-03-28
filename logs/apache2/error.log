@@ -1,0 +1,293 @@
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.26.0.5. Set the 'ServerName' directive globally to suppress this message
+[Mon Mar 23 06:11:27.009659 2020] [mpm_prefork:notice] [pid 7] AH00163: Apache/2.4.25 (Debian) PHP/5.6.40 configured -- resuming normal operations
+[Mon Mar 23 06:11:27.011363 2020] [core:notice] [pid 7] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Mon Mar 23 06:15:11.180989 2020] [:error] [pid 8] [client 172.26.0.1:39294] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in /var/www/html/phpinfo.php on line 2, referer: http://localhost/
+[Mon Mar 23 06:15:11.196559 2020] [:error] [pid 8] [client 172.26.0.1:39294] PHP Stack trace:, referer: http://localhost/
+[Mon Mar 23 06:15:11.197036 2020] [:error] [pid 8] [client 172.26.0.1:39294] PHP   1. {main}() /var/www/html/phpinfo.php:0, referer: http://localhost/
+[Mon Mar 23 06:15:11.197470 2020] [:error] [pid 8] [client 172.26.0.1:39294] PHP   2. phpinfo() /var/www/html/phpinfo.php:2, referer: http://localhost/
+sh: 1: -t: not found
+[Mon Mar 23 07:07:24.062707 2020] [:error] [pid 65] [client 172.26.0.1:40866] PHP Fatal error:  Call to undefined method MY_Loader::session() in /var/www/html/3samut/application/modules/test/views/sendpage.php on line 1
+[Mon Mar 23 07:07:24.062964 2020] [:error] [pid 65] [client 172.26.0.1:40866] PHP Stack trace:
+[Mon Mar 23 07:07:24.063314 2020] [:error] [pid 65] [client 172.26.0.1:40866] PHP   1. {main}() /var/www/html/3samut/index.php:0
+[Mon Mar 23 07:07:24.063645 2020] [:error] [pid 65] [client 172.26.0.1:40866] PHP   2. require_once() /var/www/html/3samut/index.php:315
+[Mon Mar 23 07:07:24.063953 2020] [:error] [pid 65] [client 172.26.0.1:40866] PHP   3. call_user_func_array:{/var/www/html/3samut/system/core/CodeIgniter.php:532}() /var/www/html/3samut/system/core/CodeIgniter.php:532
+[Mon Mar 23 07:07:24.064423 2020] [:error] [pid 65] [client 172.26.0.1:40866] PHP   4. Test->line() /var/www/html/3samut/system/core/CodeIgniter.php:532
+[Mon Mar 23 07:07:24.064769 2020] [:error] [pid 65] [client 172.26.0.1:40866] PHP   5. MX_Loader->view() /var/www/html/3samut/application/modules/test/controllers/Test.php:41
+[Mon Mar 23 07:07:24.065077 2020] [:error] [pid 65] [client 172.26.0.1:40866] PHP   6. MX_Loader->_ci_load() /var/www/html/3samut/application/third_party/MX/Loader.php:294
+[Mon Mar 23 07:07:24.065401 2020] [:error] [pid 65] [client 172.26.0.1:40866] PHP   7. include() /var/www/html/3samut/application/third_party/MX/Loader.php:351
+[Mon Mar 23 07:07:35.117816 2020] [:error] [pid 23] [client 172.26.0.1:40878] PHP Fatal error:  Call to undefined method MY_Loader::session() in /var/www/html/3samut/application/modules/test/views/sendpage.php on line 1
+[Mon Mar 23 07:07:35.118203 2020] [:error] [pid 23] [client 172.26.0.1:40878] PHP Stack trace:
+[Mon Mar 23 07:07:35.118525 2020] [:error] [pid 23] [client 172.26.0.1:40878] PHP   1. {main}() /var/www/html/3samut/index.php:0
+[Mon Mar 23 07:07:35.118832 2020] [:error] [pid 23] [client 172.26.0.1:40878] PHP   2. require_once() /var/www/html/3samut/index.php:315
+[Mon Mar 23 07:07:35.119075 2020] [:error] [pid 23] [client 172.26.0.1:40878] PHP   3. call_user_func_array:{/var/www/html/3samut/system/core/CodeIgniter.php:532}() /var/www/html/3samut/system/core/CodeIgniter.php:532
+[Mon Mar 23 07:07:35.120204 2020] [:error] [pid 23] [client 172.26.0.1:40878] PHP   4. Test->line() /var/www/html/3samut/system/core/CodeIgniter.php:532
+[Mon Mar 23 07:07:35.120537 2020] [:error] [pid 23] [client 172.26.0.1:40878] PHP   5. MX_Loader->view() /var/www/html/3samut/application/modules/test/controllers/Test.php:41
+[Mon Mar 23 07:07:35.120782 2020] [:error] [pid 23] [client 172.26.0.1:40878] PHP   6. MX_Loader->_ci_load() /var/www/html/3samut/application/third_party/MX/Loader.php:294
+[Mon Mar 23 07:07:35.121133 2020] [:error] [pid 23] [client 172.26.0.1:40878] PHP   7. include() /var/www/html/3samut/application/third_party/MX/Loader.php:351
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.26.0.5. Set the 'ServerName' directive globally to suppress this message
+[Mon Mar 23 07:09:06.145671 2020] [core:warn] [pid 7] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Mar 23 07:09:06.148514 2020] [mpm_prefork:notice] [pid 7] AH00163: Apache/2.4.25 (Debian) PHP/5.6.40 configured -- resuming normal operations
+[Mon Mar 23 07:09:06.148940 2020] [core:notice] [pid 7] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.27.0.5. Set the 'ServerName' directive globally to suppress this message
+[Mon Mar 23 07:27:13.871113 2020] [mpm_prefork:notice] [pid 7] AH00163: Apache/2.4.25 (Debian) PHP/5.6.40 configured -- resuming normal operations
+[Mon Mar 23 07:27:13.871552 2020] [core:notice] [pid 7] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.28.0.5. Set the 'ServerName' directive globally to suppress this message
+[Mon Mar 23 08:25:27.972927 2020] [mpm_prefork:notice] [pid 7] AH00163: Apache/2.4.25 (Debian) PHP/5.6.40 configured -- resuming normal operations
+[Mon Mar 23 08:25:27.973417 2020] [core:notice] [pid 7] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Mon Mar 23 08:25:54.343988 2020] [:error] [pid 10] [client 172.28.0.1:33486] PHP Warning:  mysqli_connect(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /var/www/html/index.php on line 34
+[Mon Mar 23 08:25:54.344481 2020] [:error] [pid 10] [client 172.28.0.1:33486] PHP Stack trace:
+[Mon Mar 23 08:25:54.344840 2020] [:error] [pid 10] [client 172.28.0.1:33486] PHP   1. {main}() /var/www/html/index.php:0
+[Mon Mar 23 08:25:54.345441 2020] [:error] [pid 10] [client 172.28.0.1:33486] PHP   2. mysqli_connect() /var/www/html/index.php:34
+[Mon Mar 23 08:25:54.346442 2020] [:error] [pid 10] [client 172.28.0.1:33486] PHP Warning:  mysqli_connect(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: Name or service not known in /var/www/html/index.php on line 34
+[Mon Mar 23 08:25:54.346765 2020] [:error] [pid 10] [client 172.28.0.1:33486] PHP Stack trace:
+[Mon Mar 23 08:25:54.347089 2020] [:error] [pid 10] [client 172.28.0.1:33486] PHP   1. {main}() /var/www/html/index.php:0
+[Mon Mar 23 08:25:54.359272 2020] [:error] [pid 10] [client 172.28.0.1:33486] PHP   2. mysqli_connect() /var/www/html/index.php:34
+[Mon Mar 23 08:25:54.360063 2020] [:error] [pid 10] [client 172.28.0.1:33486] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /var/www/html/index.php on line 44
+[Mon Mar 23 08:25:54.360558 2020] [:error] [pid 10] [client 172.28.0.1:33486] PHP Stack trace:
+[Mon Mar 23 08:25:54.361962 2020] [:error] [pid 10] [client 172.28.0.1:33486] PHP   1. {main}() /var/www/html/index.php:0
+[Mon Mar 23 08:25:54.365337 2020] [:error] [pid 10] [client 172.28.0.1:33486] PHP   2. mysqli_close() /var/www/html/index.php:44
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.29.0.4. Set the 'ServerName' directive globally to suppress this message
+[Mon Mar 23 08:27:12.356245 2020] [mpm_prefork:notice] [pid 7] AH00163: Apache/2.4.25 (Debian) PHP/5.6.40 configured -- resuming normal operations
+[Mon Mar 23 08:27:12.356642 2020] [core:notice] [pid 7] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Mon Mar 23 08:27:16.609968 2020] [:error] [pid 9] [client 172.29.0.1:44536] PHP Warning:  mysqli_connect(): (HY000/2002): Connection refused in /var/www/html/index.php on line 34
+[Mon Mar 23 08:27:16.610898 2020] [:error] [pid 9] [client 172.29.0.1:44536] PHP Stack trace:
+[Mon Mar 23 08:27:16.611861 2020] [:error] [pid 9] [client 172.29.0.1:44536] PHP   1. {main}() /var/www/html/index.php:0
+[Mon Mar 23 08:27:16.612555 2020] [:error] [pid 9] [client 172.29.0.1:44536] PHP   2. mysqli_connect() /var/www/html/index.php:34
+[Mon Mar 23 08:27:16.613108 2020] [:error] [pid 9] [client 172.29.0.1:44536] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /var/www/html/index.php on line 44
+[Mon Mar 23 08:27:16.613502 2020] [:error] [pid 9] [client 172.29.0.1:44536] PHP Stack trace:
+[Mon Mar 23 08:27:16.614066 2020] [:error] [pid 9] [client 172.29.0.1:44536] PHP   1. {main}() /var/www/html/index.php:0
+[Mon Mar 23 08:27:16.614530 2020] [:error] [pid 9] [client 172.29.0.1:44536] PHP   2. mysqli_close() /var/www/html/index.php:44
+[Mon Mar 23 08:27:22.133298 2020] [:error] [pid 12] [client 172.29.0.1:44538] PHP Warning:  mysqli_connect(): (HY000/2002): Connection refused in /var/www/html/test_db.php on line 2, referer: http://localhost/
+[Mon Mar 23 08:27:22.134002 2020] [:error] [pid 12] [client 172.29.0.1:44538] PHP Stack trace:, referer: http://localhost/
+[Mon Mar 23 08:27:22.135118 2020] [:error] [pid 12] [client 172.29.0.1:44538] PHP   1. {main}() /var/www/html/test_db.php:0, referer: http://localhost/
+[Mon Mar 23 08:27:22.135648 2020] [:error] [pid 12] [client 172.29.0.1:44538] PHP   2. mysqli_connect() /var/www/html/test_db.php:2, referer: http://localhost/
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.30.0.5. Set the 'ServerName' directive globally to suppress this message
+[Mon Mar 23 08:29:39.634501 2020] [mpm_prefork:notice] [pid 7] AH00163: Apache/2.4.25 (Debian) PHP/5.6.40 configured -- resuming normal operations
+[Mon Mar 23 08:29:39.634936 2020] [core:notice] [pid 7] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.31.0.4. Set the 'ServerName' directive globally to suppress this message
+[Mon Mar 23 08:30:50.427752 2020] [mpm_prefork:notice] [pid 7] AH00163: Apache/2.4.25 (Debian) PHP/5.6.40 configured -- resuming normal operations
+[Mon Mar 23 08:30:50.429492 2020] [core:notice] [pid 7] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+sh: 1: -t: not found
+sh: 1: -t: not found
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.31.0.2. Set the 'ServerName' directive globally to suppress this message
+[Tue Mar 24 01:52:13.886867 2020] [mpm_prefork:notice] [pid 7] AH00163: Apache/2.4.25 (Debian) PHP/5.6.40 configured -- resuming normal operations
+[Tue Mar 24 01:52:13.887717 2020] [core:notice] [pid 7] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+apache2: Syntax error on line 225 of /etc/apache2/apache2.conf: Could not open configuration file /etc/apache2/sites-enabled/default.conf: No such file or directory
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.20.0.3. Set the 'ServerName' directive globally to suppress this message
+[Tue Mar 24 02:44:43.401873 2020] [mpm_prefork:notice] [pid 7] AH00163: Apache/2.4.25 (Debian) PHP/5.6.40 configured -- resuming normal operations
+[Tue Mar 24 02:44:43.402127 2020] [core:notice] [pid 7] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.20.0.2. Set the 'ServerName' directive globally to suppress this message
+[Tue Mar 24 02:45:18.676808 2020] [core:warn] [pid 7] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Mar 24 02:45:18.679269 2020] [mpm_prefork:notice] [pid 7] AH00163: Apache/2.4.25 (Debian) PHP/5.6.40 configured -- resuming normal operations
+[Tue Mar 24 02:45:18.679633 2020] [core:notice] [pid 7] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.20.0.5. Set the 'ServerName' directive globally to suppress this message
+[Tue Mar 24 02:45:37.842681 2020] [core:warn] [pid 7] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Mar 24 02:45:37.845243 2020] [mpm_prefork:notice] [pid 7] AH00163: Apache/2.4.25 (Debian) PHP/5.6.40 configured -- resuming normal operations
+[Tue Mar 24 02:45:37.845673 2020] [core:notice] [pid 7] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.21.0.5. Set the 'ServerName' directive globally to suppress this message
+[Tue Mar 24 02:47:16.338511 2020] [mpm_prefork:notice] [pid 7] AH00163: Apache/2.4.25 (Debian) PHP/5.6.40 configured -- resuming normal operations
+[Tue Mar 24 02:47:16.338765 2020] [core:notice] [pid 7] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.22.0.5. Set the 'ServerName' directive globally to suppress this message
+[Tue Mar 24 02:50:03.313270 2020] [mpm_prefork:notice] [pid 7] AH00163: Apache/2.4.25 (Debian) PHP/5.6.40 configured -- resuming normal operations
+[Tue Mar 24 02:50:03.315829 2020] [core:notice] [pid 7] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+sh: 1: -t: not found
+sh: 1: -t: not found
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.5. Set the 'ServerName' directive globally to suppress this message
+[Tue Mar 24 03:47:16.016021 2020] [mpm_prefork:notice] [pid 7] AH00163: Apache/2.4.25 (Debian) PHP/5.6.40 configured -- resuming normal operations
+[Tue Mar 24 03:47:16.017062 2020] [core:notice] [pid 7] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.3. Set the 'ServerName' directive globally to suppress this message
+[Tue Mar 24 05:21:14.651740 2020] [mpm_prefork:notice] [pid 7] AH00163: Apache/2.4.25 (Debian) PHP/5.6.40 configured -- resuming normal operations
+[Tue Mar 24 05:21:14.657518 2020] [core:notice] [pid 7] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.5. Set the 'ServerName' directive globally to suppress this message
+[Tue Mar 24 09:01:37.707918 2020] [mpm_prefork:notice] [pid 7] AH00163: Apache/2.4.25 (Debian) PHP/5.6.40 configured -- resuming normal operations
+[Tue Mar 24 09:01:37.709041 2020] [core:notice] [pid 7] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.3. Set the 'ServerName' directive globally to suppress this message
+[Wed Mar 25 01:49:41.648202 2020] [core:warn] [pid 7] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Mar 25 01:49:41.652424 2020] [mpm_prefork:notice] [pid 7] AH00163: Apache/2.4.25 (Debian) PHP/5.6.40 configured -- resuming normal operations
+[Wed Mar 25 01:49:41.653011 2020] [core:notice] [pid 7] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+sh: 1: -t: not found
+[Wed Mar 25 04:28:57.939351 2020] [:error] [pid 43] [client 172.18.0.1:51056] PHP Fatal error:  Call to undefined function getStoreStar() in /var/www/html/application/modules/product/views/product_view.php on line 313, referer: http://localhost/product?keyword=%E0%B8%84%E0%B8%AD%E0%B8%A1%E0%B8%9E%E0%B8%B4%E0%B8%A7%E0%B9%80%E0%B8%95%E0%B8%AD%E0%B8%A3%E0%B9%8C
+[Wed Mar 25 04:28:57.939990 2020] [:error] [pid 43] [client 172.18.0.1:51056] PHP Stack trace:, referer: http://localhost/product?keyword=%E0%B8%84%E0%B8%AD%E0%B8%A1%E0%B8%9E%E0%B8%B4%E0%B8%A7%E0%B9%80%E0%B8%95%E0%B8%AD%E0%B8%A3%E0%B9%8C
+[Wed Mar 25 04:28:57.940363 2020] [:error] [pid 43] [client 172.18.0.1:51056] PHP   1. {main}() /var/www/html/index.php:0, referer: http://localhost/product?keyword=%E0%B8%84%E0%B8%AD%E0%B8%A1%E0%B8%9E%E0%B8%B4%E0%B8%A7%E0%B9%80%E0%B8%95%E0%B8%AD%E0%B8%A3%E0%B9%8C
+[Wed Mar 25 04:28:57.940769 2020] [:error] [pid 43] [client 172.18.0.1:51056] PHP   2. require_once() /var/www/html/index.php:315, referer: http://localhost/product?keyword=%E0%B8%84%E0%B8%AD%E0%B8%A1%E0%B8%9E%E0%B8%B4%E0%B8%A7%E0%B9%80%E0%B8%95%E0%B8%AD%E0%B8%A3%E0%B9%8C
+[Wed Mar 25 04:28:57.941087 2020] [:error] [pid 43] [client 172.18.0.1:51056] PHP   3. call_user_func_array:{/var/www/html/system/core/CodeIgniter.php:532}() /var/www/html/system/core/CodeIgniter.php:532, referer: http://localhost/product?keyword=%E0%B8%84%E0%B8%AD%E0%B8%A1%E0%B8%9E%E0%B8%B4%E0%B8%A7%E0%B9%80%E0%B8%95%E0%B8%AD%E0%B8%A3%E0%B9%8C
+[Wed Mar 25 04:28:57.941381 2020] [:error] [pid 43] [client 172.18.0.1:51056] PHP   4. Product->index() /var/www/html/system/core/CodeIgniter.php:532, referer: http://localhost/product?keyword=%E0%B8%84%E0%B8%AD%E0%B8%A1%E0%B8%9E%E0%B8%B4%E0%B8%A7%E0%B9%80%E0%B8%95%E0%B8%AD%E0%B8%A3%E0%B9%8C
+[Wed Mar 25 04:28:57.941696 2020] [:error] [pid 43] [client 172.18.0.1:51056] PHP   5. MX_Loader->view() /var/www/html/application/modules/product/controllers/Product.php:76, referer: http://localhost/product?keyword=%E0%B8%84%E0%B8%AD%E0%B8%A1%E0%B8%9E%E0%B8%B4%E0%B8%A7%E0%B9%80%E0%B8%95%E0%B8%AD%E0%B8%A3%E0%B9%8C
+[Wed Mar 25 04:28:57.942023 2020] [:error] [pid 43] [client 172.18.0.1:51056] PHP   6. MX_Loader->_ci_load() /var/www/html/application/third_party/MX/Loader.php:294, referer: http://localhost/product?keyword=%E0%B8%84%E0%B8%AD%E0%B8%A1%E0%B8%9E%E0%B8%B4%E0%B8%A7%E0%B9%80%E0%B8%95%E0%B8%AD%E0%B8%A3%E0%B9%8C
+[Wed Mar 25 04:28:57.942526 2020] [:error] [pid 43] [client 172.18.0.1:51056] PHP   7. include() /var/www/html/application/third_party/MX/Loader.php:351, referer: http://localhost/product?keyword=%E0%B8%84%E0%B8%AD%E0%B8%A1%E0%B8%9E%E0%B8%B4%E0%B8%A7%E0%B9%80%E0%B8%95%E0%B8%AD%E0%B8%A3%E0%B9%8C
+[Wed Mar 25 04:29:01.791948 2020] [:error] [pid 19] [client 172.18.0.1:51078] PHP Fatal error:  Call to undefined function getStoreStar() in /var/www/html/application/modules/product/views/product_view.php on line 313, referer: http://localhost/product?keyword=%E0%B8%84%E0%B8%AD%E0%B8%A1%E0%B8%9E%E0%B8%B4%E0%B8%A7%E0%B9%80%E0%B8%95%E0%B8%AD%E0%B8%A3%E0%B9%8C
+[Wed Mar 25 04:29:01.792529 2020] [:error] [pid 19] [client 172.18.0.1:51078] PHP Stack trace:, referer: http://localhost/product?keyword=%E0%B8%84%E0%B8%AD%E0%B8%A1%E0%B8%9E%E0%B8%B4%E0%B8%A7%E0%B9%80%E0%B8%95%E0%B8%AD%E0%B8%A3%E0%B9%8C
+[Wed Mar 25 04:29:01.792955 2020] [:error] [pid 19] [client 172.18.0.1:51078] PHP   1. {main}() /var/www/html/index.php:0, referer: http://localhost/product?keyword=%E0%B8%84%E0%B8%AD%E0%B8%A1%E0%B8%9E%E0%B8%B4%E0%B8%A7%E0%B9%80%E0%B8%95%E0%B8%AD%E0%B8%A3%E0%B9%8C
+[Wed Mar 25 04:29:01.793310 2020] [:error] [pid 19] [client 172.18.0.1:51078] PHP   2. require_once() /var/www/html/index.php:315, referer: http://localhost/product?keyword=%E0%B8%84%E0%B8%AD%E0%B8%A1%E0%B8%9E%E0%B8%B4%E0%B8%A7%E0%B9%80%E0%B8%95%E0%B8%AD%E0%B8%A3%E0%B9%8C
+[Wed Mar 25 04:29:01.793545 2020] [:error] [pid 19] [client 172.18.0.1:51078] PHP   3. call_user_func_array:{/var/www/html/system/core/CodeIgniter.php:532}() /var/www/html/system/core/CodeIgniter.php:532, referer: http://localhost/product?keyword=%E0%B8%84%E0%B8%AD%E0%B8%A1%E0%B8%9E%E0%B8%B4%E0%B8%A7%E0%B9%80%E0%B8%95%E0%B8%AD%E0%B8%A3%E0%B9%8C
+[Wed Mar 25 04:29:01.794054 2020] [:error] [pid 19] [client 172.18.0.1:51078] PHP   4. Product->index() /var/www/html/system/core/CodeIgniter.php:532, referer: http://localhost/product?keyword=%E0%B8%84%E0%B8%AD%E0%B8%A1%E0%B8%9E%E0%B8%B4%E0%B8%A7%E0%B9%80%E0%B8%95%E0%B8%AD%E0%B8%A3%E0%B9%8C
+[Wed Mar 25 04:29:01.794431 2020] [:error] [pid 19] [client 172.18.0.1:51078] PHP   5. MX_Loader->view() /var/www/html/application/modules/product/controllers/Product.php:76, referer: http://localhost/product?keyword=%E0%B8%84%E0%B8%AD%E0%B8%A1%E0%B8%9E%E0%B8%B4%E0%B8%A7%E0%B9%80%E0%B8%95%E0%B8%AD%E0%B8%A3%E0%B9%8C
+[Wed Mar 25 04:29:01.794773 2020] [:error] [pid 19] [client 172.18.0.1:51078] PHP   6. MX_Loader->_ci_load() /var/www/html/application/third_party/MX/Loader.php:294, referer: http://localhost/product?keyword=%E0%B8%84%E0%B8%AD%E0%B8%A1%E0%B8%9E%E0%B8%B4%E0%B8%A7%E0%B9%80%E0%B8%95%E0%B8%AD%E0%B8%A3%E0%B9%8C
+[Wed Mar 25 04:29:01.795303 2020] [:error] [pid 19] [client 172.18.0.1:51078] PHP   7. include() /var/www/html/application/third_party/MX/Loader.php:351, referer: http://localhost/product?keyword=%E0%B8%84%E0%B8%AD%E0%B8%A1%E0%B8%9E%E0%B8%B4%E0%B8%A7%E0%B9%80%E0%B8%95%E0%B8%AD%E0%B8%A3%E0%B9%8C
+[Wed Mar 25 04:29:24.401043 2020] [:error] [pid 31] [client 172.18.0.1:51094] PHP Fatal error:  Call to undefined function getStoreStar() in /var/www/html/application/modules/product/views/product_view.php on line 313, referer: http://localhost/product?keyword=%E0%B8%84%E0%B8%AD%E0%B8%A1%E0%B8%9E%E0%B8%B4%E0%B8%A7%E0%B9%80%E0%B8%95%E0%B8%AD%E0%B8%A3%E0%B9%8C
+[Wed Mar 25 04:29:24.401629 2020] [:error] [pid 31] [client 172.18.0.1:51094] PHP Stack trace:, referer: http://localhost/product?keyword=%E0%B8%84%E0%B8%AD%E0%B8%A1%E0%B8%9E%E0%B8%B4%E0%B8%A7%E0%B9%80%E0%B8%95%E0%B8%AD%E0%B8%A3%E0%B9%8C
+[Wed Mar 25 04:29:24.402028 2020] [:error] [pid 31] [client 172.18.0.1:51094] PHP   1. {main}() /var/www/html/index.php:0, referer: http://localhost/product?keyword=%E0%B8%84%E0%B8%AD%E0%B8%A1%E0%B8%9E%E0%B8%B4%E0%B8%A7%E0%B9%80%E0%B8%95%E0%B8%AD%E0%B8%A3%E0%B9%8C
+[Wed Mar 25 04:29:24.402350 2020] [:error] [pid 31] [client 172.18.0.1:51094] PHP   2. require_once() /var/www/html/index.php:315, referer: http://localhost/product?keyword=%E0%B8%84%E0%B8%AD%E0%B8%A1%E0%B8%9E%E0%B8%B4%E0%B8%A7%E0%B9%80%E0%B8%95%E0%B8%AD%E0%B8%A3%E0%B9%8C
+[Wed Mar 25 04:29:24.402786 2020] [:error] [pid 31] [client 172.18.0.1:51094] PHP   3. call_user_func_array:{/var/www/html/system/core/CodeIgniter.php:532}() /var/www/html/system/core/CodeIgniter.php:532, referer: http://localhost/product?keyword=%E0%B8%84%E0%B8%AD%E0%B8%A1%E0%B8%9E%E0%B8%B4%E0%B8%A7%E0%B9%80%E0%B8%95%E0%B8%AD%E0%B8%A3%E0%B9%8C
+[Wed Mar 25 04:29:24.403222 2020] [:error] [pid 31] [client 172.18.0.1:51094] PHP   4. Product->index() /var/www/html/system/core/CodeIgniter.php:532, referer: http://localhost/product?keyword=%E0%B8%84%E0%B8%AD%E0%B8%A1%E0%B8%9E%E0%B8%B4%E0%B8%A7%E0%B9%80%E0%B8%95%E0%B8%AD%E0%B8%A3%E0%B9%8C
+[Wed Mar 25 04:29:24.403541 2020] [:error] [pid 31] [client 172.18.0.1:51094] PHP   5. MX_Loader->view() /var/www/html/application/modules/product/controllers/Product.php:76, referer: http://localhost/product?keyword=%E0%B8%84%E0%B8%AD%E0%B8%A1%E0%B8%9E%E0%B8%B4%E0%B8%A7%E0%B9%80%E0%B8%95%E0%B8%AD%E0%B8%A3%E0%B9%8C
+[Wed Mar 25 04:29:24.403857 2020] [:error] [pid 31] [client 172.18.0.1:51094] PHP   6. MX_Loader->_ci_load() /var/www/html/application/third_party/MX/Loader.php:294, referer: http://localhost/product?keyword=%E0%B8%84%E0%B8%AD%E0%B8%A1%E0%B8%9E%E0%B8%B4%E0%B8%A7%E0%B9%80%E0%B8%95%E0%B8%AD%E0%B8%A3%E0%B9%8C
+[Wed Mar 25 04:29:24.404213 2020] [:error] [pid 31] [client 172.18.0.1:51094] PHP   7. include() /var/www/html/application/third_party/MX/Loader.php:351, referer: http://localhost/product?keyword=%E0%B8%84%E0%B8%AD%E0%B8%A1%E0%B8%9E%E0%B8%B4%E0%B8%A7%E0%B9%80%E0%B8%95%E0%B8%AD%E0%B8%A3%E0%B9%8C
+[Wed Mar 25 04:29:30.142722 2020] [:error] [pid 47] [client 172.18.0.1:51126] PHP Fatal error:  Call to undefined function getStoreStar() in /var/www/html/application/modules/product/views/product_view.php on line 313, referer: http://localhost/product?keyword=%E0%B9%84%E0%B8%AD%E0%B8%97%E0%B8%B5
+[Wed Mar 25 04:29:30.143270 2020] [:error] [pid 47] [client 172.18.0.1:51126] PHP Stack trace:, referer: http://localhost/product?keyword=%E0%B9%84%E0%B8%AD%E0%B8%97%E0%B8%B5
+[Wed Mar 25 04:29:30.143720 2020] [:error] [pid 47] [client 172.18.0.1:51126] PHP   1. {main}() /var/www/html/index.php:0, referer: http://localhost/product?keyword=%E0%B9%84%E0%B8%AD%E0%B8%97%E0%B8%B5
+[Wed Mar 25 04:29:30.144057 2020] [:error] [pid 47] [client 172.18.0.1:51126] PHP   2. require_once() /var/www/html/index.php:315, referer: http://localhost/product?keyword=%E0%B9%84%E0%B8%AD%E0%B8%97%E0%B8%B5
+[Wed Mar 25 04:29:30.144589 2020] [:error] [pid 47] [client 172.18.0.1:51126] PHP   3. call_user_func_array:{/var/www/html/system/core/CodeIgniter.php:532}() /var/www/html/system/core/CodeIgniter.php:532, referer: http://localhost/product?keyword=%E0%B9%84%E0%B8%AD%E0%B8%97%E0%B8%B5
+[Wed Mar 25 04:29:30.145098 2020] [:error] [pid 47] [client 172.18.0.1:51126] PHP   4. Product->index() /var/www/html/system/core/CodeIgniter.php:532, referer: http://localhost/product?keyword=%E0%B9%84%E0%B8%AD%E0%B8%97%E0%B8%B5
+[Wed Mar 25 04:29:30.145387 2020] [:error] [pid 47] [client 172.18.0.1:51126] PHP   5. MX_Loader->view() /var/www/html/application/modules/product/controllers/Product.php:76, referer: http://localhost/product?keyword=%E0%B9%84%E0%B8%AD%E0%B8%97%E0%B8%B5
+[Wed Mar 25 04:29:30.145776 2020] [:error] [pid 47] [client 172.18.0.1:51126] PHP   6. MX_Loader->_ci_load() /var/www/html/application/third_party/MX/Loader.php:294, referer: http://localhost/product?keyword=%E0%B9%84%E0%B8%AD%E0%B8%97%E0%B8%B5
+[Wed Mar 25 04:29:30.146084 2020] [:error] [pid 47] [client 172.18.0.1:51126] PHP   7. include() /var/www/html/application/third_party/MX/Loader.php:351, referer: http://localhost/product?keyword=%E0%B9%84%E0%B8%AD%E0%B8%97%E0%B8%B5
+sh: 1: -t: not found
+[Wed Mar 25 06:40:58.543899 2020] [:error] [pid 75] [client 172.18.0.1:53976] PHP Fatal error:  Call to undefined method CI_DB_mysqli_driver::leftJoin() in /var/www/html/application/modules/shop/models/Model_shop.php on line 278, referer: http://localhost/product/0/37
+[Wed Mar 25 06:40:58.544385 2020] [:error] [pid 75] [client 172.18.0.1:53976] PHP Stack trace:, referer: http://localhost/product/0/37
+[Wed Mar 25 06:40:58.544698 2020] [:error] [pid 75] [client 172.18.0.1:53976] PHP   1. {main}() /var/www/html/index.php:0, referer: http://localhost/product/0/37
+[Wed Mar 25 06:40:58.545044 2020] [:error] [pid 75] [client 172.18.0.1:53976] PHP   2. require_once() /var/www/html/index.php:315, referer: http://localhost/product/0/37
+[Wed Mar 25 06:40:58.545333 2020] [:error] [pid 75] [client 172.18.0.1:53976] PHP   3. call_user_func_array:{/var/www/html/system/core/CodeIgniter.php:532}() /var/www/html/system/core/CodeIgniter.php:532, referer: http://localhost/product/0/37
+[Wed Mar 25 06:40:58.545689 2020] [:error] [pid 75] [client 172.18.0.1:53976] PHP   4. Product->index() /var/www/html/system/core/CodeIgniter.php:532, referer: http://localhost/product/0/37
+[Wed Mar 25 06:40:58.546075 2020] [:error] [pid 75] [client 172.18.0.1:53976] PHP   5. Model_shop->getShopReccommendListByCatName() /var/www/html/application/modules/product/controllers/Product.php:22, referer: http://localhost/product/0/37
+sh: 1: -t: not found
+[Wed Mar 25 09:35:02.859205 2020] [:error] [pid 89] [client 172.18.0.1:59632] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /var/www/html/system/libraries/Session/drivers/Session_files_driver.php on line 212, referer: http://localhost/member/loginMember
+[Wed Mar 25 09:35:02.859902 2020] [:error] [pid 89] [client 172.18.0.1:59632] PHP Stack trace:, referer: http://localhost/member/loginMember
+[Wed Mar 25 09:35:02.860307 2020] [:error] [pid 89] [client 172.18.0.1:59632] PHP   1. {main}() /var/www/html/index.php:0, referer: http://localhost/member/loginMember
+[Wed Mar 25 09:35:02.860675 2020] [:error] [pid 89] [client 172.18.0.1:59632] PHP   2. require_once() /var/www/html/index.php:315, referer: http://localhost/member/loginMember
+[Wed Mar 25 09:35:02.861198 2020] [:error] [pid 89] [client 172.18.0.1:59632] PHP   3. require_once() /var/www/html/system/core/CodeIgniter.php:411, referer: http://localhost/member/loginMember
+[Wed Mar 25 09:35:02.861636 2020] [:error] [pid 89] [client 172.18.0.1:59632] PHP   4. spl_autoload_call() /var/www/html/system/core/CodeIgniter.php:4, referer: http://localhost/member/loginMember
+[Wed Mar 25 09:35:02.862016 2020] [:error] [pid 89] [client 172.18.0.1:59632] PHP   5. Modules::autoload() /var/www/html/system/core/CodeIgniter.php:4, referer: http://localhost/member/loginMember
+[Wed Mar 25 09:35:02.862426 2020] [:error] [pid 89] [client 172.18.0.1:59632] PHP   6. include_once() /var/www/html/application/third_party/MX/Modules.php:123, referer: http://localhost/member/loginMember
+[Wed Mar 25 09:35:02.862671 2020] [:error] [pid 89] [client 172.18.0.1:59632] PHP   7. require() /var/www/html/application/third_party/MX/Controller.php:3, referer: http://localhost/member/loginMember
+[Wed Mar 25 09:35:02.862976 2020] [:error] [pid 89] [client 172.18.0.1:59632] PHP   8. CI->__construct() /var/www/html/application/third_party/MX/Base.php:60, referer: http://localhost/member/loginMember
+[Wed Mar 25 09:35:02.863246 2020] [:error] [pid 89] [client 172.18.0.1:59632] PHP   9. CI_Controller->__construct() /var/www/html/application/third_party/MX/Base.php:55, referer: http://localhost/member/loginMember
+[Wed Mar 25 09:35:02.863569 2020] [:error] [pid 89] [client 172.18.0.1:59632] PHP  10. MX_Loader->initialize() /var/www/html/system/core/Controller.php:79, referer: http://localhost/member/loginMember
+[Wed Mar 25 09:35:02.863890 2020] [:error] [pid 89] [client 172.18.0.1:59632] PHP  11. CI_Loader->initialize() /var/www/html/application/third_party/MX/Loader.php:65, referer: http://localhost/member/loginMember
+[Wed Mar 25 09:35:02.864189 2020] [:error] [pid 89] [client 172.18.0.1:59632] PHP  12. CI_Loader->_ci_autoloader() /var/www/html/system/core/Loader.php:157, referer: http://localhost/member/loginMember
+[Wed Mar 25 09:35:02.864429 2020] [:error] [pid 89] [client 172.18.0.1:59632] PHP  13. MX_Loader->library() /var/www/html/system/core/Loader.php:1359, referer: http://localhost/member/loginMember
+[Wed Mar 25 09:35:02.864658 2020] [:error] [pid 89] [client 172.18.0.1:59632] PHP  14. MX_Loader->libraries() /var/www/html/application/third_party/MX/Loader.php:153, referer: http://localhost/member/loginMember
+[Wed Mar 25 09:35:02.864951 2020] [:error] [pid 89] [client 172.18.0.1:59632] PHP  15. MX_Loader->library() /var/www/html/application/third_party/MX/Loader.php:190, referer: http://localhost/member/loginMember
+[Wed Mar 25 09:35:02.865242 2020] [:error] [pid 89] [client 172.18.0.1:59632] PHP  16. CI_Loader->_ci_load_library() /var/www/html/application/third_party/MX/Loader.php:173, referer: http://localhost/member/loginMember
+[Wed Mar 25 09:35:02.865538 2020] [:error] [pid 89] [client 172.18.0.1:59632] PHP  17. CI_Loader->_ci_init_library() /var/www/html/system/core/Loader.php:1083, referer: http://localhost/member/loginMember
+[Wed Mar 25 09:35:02.865838 2020] [:error] [pid 89] [client 172.18.0.1:59632] PHP  18. Utils->__construct() /var/www/html/system/core/Loader.php:1285, referer: http://localhost/member/loginMember
+[Wed Mar 25 09:35:02.866159 2020] [:error] [pid 89] [client 172.18.0.1:59632] PHP  19. MX_Loader->library() /var/www/html/application/libraries/Utils.php:12, referer: http://localhost/member/loginMember
+[Wed Mar 25 09:35:02.866391 2020] [:error] [pid 89] [client 172.18.0.1:59632] PHP  20. CI_Loader->_ci_load_library() /var/www/html/application/third_party/MX/Loader.php:173, referer: http://localhost/member/loginMember
+[Wed Mar 25 09:35:02.866701 2020] [:error] [pid 89] [client 172.18.0.1:59632] PHP  21. CI_Loader->_ci_load_library() /var/www/html/system/core/Loader.php:1089, referer: http://localhost/member/loginMember
+[Wed Mar 25 09:35:02.866985 2020] [:error] [pid 89] [client 172.18.0.1:59632] PHP  22. CI_Loader->_ci_load_stock_library() /var/www/html/system/core/Loader.php:1043, referer: http://localhost/member/loginMember
+[Wed Mar 25 09:35:02.867291 2020] [:error] [pid 89] [client 172.18.0.1:59632] PHP  23. CI_Loader->_ci_init_library() /var/www/html/system/core/Loader.php:1178, referer: http://localhost/member/loginMember
+[Wed Mar 25 09:35:02.867594 2020] [:error] [pid 89] [client 172.18.0.1:59632] PHP  24. CI_Session->__construct() /var/www/html/system/core/Loader.php:1285, referer: http://localhost/member/loginMember
+[Wed Mar 25 09:35:02.867896 2020] [:error] [pid 89] [client 172.18.0.1:59632] PHP  25. session_start() /var/www/html/system/libraries/Session/Session.php:143, referer: http://localhost/member/loginMember
+[Wed Mar 25 09:35:02.868187 2020] [:error] [pid 89] [client 172.18.0.1:59632] PHP  26. CI_Session_files_driver->read() /var/www/html/system/libraries/Session/Session.php:143, referer: http://localhost/member/loginMember
+[Wed Mar 25 10:55:04.562843 2020] [:error] [pid 89] [client 172.18.0.1:32998] PHP Fatal error:  Call to undefined function config() in /var/www/html/application/views/templates/footer.php on line 50
+[Wed Mar 25 10:55:04.563134 2020] [:error] [pid 89] [client 172.18.0.1:32998] PHP Stack trace:
+[Wed Mar 25 10:55:04.563498 2020] [:error] [pid 89] [client 172.18.0.1:32998] PHP   1. {main}() /var/www/html/index.php:0
+[Wed Mar 25 10:55:04.563760 2020] [:error] [pid 89] [client 172.18.0.1:32998] PHP   2. require_once() /var/www/html/index.php:315
+[Wed Mar 25 10:55:04.564119 2020] [:error] [pid 89] [client 172.18.0.1:32998] PHP   3. call_user_func_array:{/var/www/html/system/core/CodeIgniter.php:532}() /var/www/html/system/core/CodeIgniter.php:532
+[Wed Mar 25 10:55:04.564444 2020] [:error] [pid 89] [client 172.18.0.1:32998] PHP   4. Home->index() /var/www/html/system/core/CodeIgniter.php:532
+[Wed Mar 25 10:55:04.564741 2020] [:error] [pid 89] [client 172.18.0.1:32998] PHP   5. MX_Loader->view() /var/www/html/application/modules/home/controllers/Home.php:23
+[Wed Mar 25 10:55:04.565043 2020] [:error] [pid 89] [client 172.18.0.1:32998] PHP   6. MX_Loader->_ci_load() /var/www/html/application/third_party/MX/Loader.php:294
+[Wed Mar 25 10:55:04.565341 2020] [:error] [pid 89] [client 172.18.0.1:32998] PHP   7. include() /var/www/html/application/third_party/MX/Loader.php:351
+[Wed Mar 25 10:55:04.565574 2020] [:error] [pid 89] [client 172.18.0.1:32998] PHP   8. MX_Loader->view() /var/www/html/application/modules/home/views/home_view.php:312
+[Wed Mar 25 10:55:04.565855 2020] [:error] [pid 89] [client 172.18.0.1:32998] PHP   9. MX_Loader->_ci_load() /var/www/html/application/third_party/MX/Loader.php:294
+[Wed Mar 25 10:55:04.566142 2020] [:error] [pid 89] [client 172.18.0.1:32998] PHP  10. include() /var/www/html/application/third_party/MX/Loader.php:351
+[Wed Mar 25 10:55:25.470579 2020] [:error] [pid 85] [client 172.18.0.1:33010] PHP Fatal error:  Call to undefined function config() in /var/www/html/application/views/templates/footer.php on line 50
+[Wed Mar 25 10:55:25.470927 2020] [:error] [pid 85] [client 172.18.0.1:33010] PHP Stack trace:
+[Wed Mar 25 10:55:25.471358 2020] [:error] [pid 85] [client 172.18.0.1:33010] PHP   1. {main}() /var/www/html/index.php:0
+[Wed Mar 25 10:55:25.471660 2020] [:error] [pid 85] [client 172.18.0.1:33010] PHP   2. require_once() /var/www/html/index.php:315
+[Wed Mar 25 10:55:25.472086 2020] [:error] [pid 85] [client 172.18.0.1:33010] PHP   3. call_user_func_array:{/var/www/html/system/core/CodeIgniter.php:532}() /var/www/html/system/core/CodeIgniter.php:532
+[Wed Mar 25 10:55:25.472350 2020] [:error] [pid 85] [client 172.18.0.1:33010] PHP   4. Home->index() /var/www/html/system/core/CodeIgniter.php:532
+[Wed Mar 25 10:55:25.472754 2020] [:error] [pid 85] [client 172.18.0.1:33010] PHP   5. MX_Loader->view() /var/www/html/application/modules/home/controllers/Home.php:23
+[Wed Mar 25 10:55:25.473193 2020] [:error] [pid 85] [client 172.18.0.1:33010] PHP   6. MX_Loader->_ci_load() /var/www/html/application/third_party/MX/Loader.php:294
+[Wed Mar 25 10:55:25.473609 2020] [:error] [pid 85] [client 172.18.0.1:33010] PHP   7. include() /var/www/html/application/third_party/MX/Loader.php:351
+[Wed Mar 25 10:55:25.473857 2020] [:error] [pid 85] [client 172.18.0.1:33010] PHP   8. MX_Loader->view() /var/www/html/application/modules/home/views/home_view.php:312
+[Wed Mar 25 10:55:25.474246 2020] [:error] [pid 85] [client 172.18.0.1:33010] PHP   9. MX_Loader->_ci_load() /var/www/html/application/third_party/MX/Loader.php:294
+[Wed Mar 25 10:55:25.474691 2020] [:error] [pid 85] [client 172.18.0.1:33010] PHP  10. include() /var/www/html/application/third_party/MX/Loader.php:351
+[Wed Mar 25 10:55:27.475492 2020] [:error] [pid 106] [client 172.18.0.1:33012] PHP Fatal error:  Call to undefined function config() in /var/www/html/application/views/templates/footer.php on line 50
+[Wed Mar 25 10:55:27.476268 2020] [:error] [pid 106] [client 172.18.0.1:33012] PHP Stack trace:
+[Wed Mar 25 10:55:27.476698 2020] [:error] [pid 106] [client 172.18.0.1:33012] PHP   1. {main}() /var/www/html/index.php:0
+[Wed Mar 25 10:55:27.477081 2020] [:error] [pid 106] [client 172.18.0.1:33012] PHP   2. require_once() /var/www/html/index.php:315
+[Wed Mar 25 10:55:27.477651 2020] [:error] [pid 106] [client 172.18.0.1:33012] PHP   3. call_user_func_array:{/var/www/html/system/core/CodeIgniter.php:532}() /var/www/html/system/core/CodeIgniter.php:532
+[Wed Mar 25 10:55:27.478036 2020] [:error] [pid 106] [client 172.18.0.1:33012] PHP   4. Home->index() /var/www/html/system/core/CodeIgniter.php:532
+[Wed Mar 25 10:55:27.478415 2020] [:error] [pid 106] [client 172.18.0.1:33012] PHP   5. MX_Loader->view() /var/www/html/application/modules/home/controllers/Home.php:23
+[Wed Mar 25 10:55:27.478808 2020] [:error] [pid 106] [client 172.18.0.1:33012] PHP   6. MX_Loader->_ci_load() /var/www/html/application/third_party/MX/Loader.php:294
+[Wed Mar 25 10:55:27.479187 2020] [:error] [pid 106] [client 172.18.0.1:33012] PHP   7. include() /var/www/html/application/third_party/MX/Loader.php:351
+[Wed Mar 25 10:55:27.479541 2020] [:error] [pid 106] [client 172.18.0.1:33012] PHP   8. MX_Loader->view() /var/www/html/application/modules/home/views/home_view.php:312
+[Wed Mar 25 10:55:27.479925 2020] [:error] [pid 106] [client 172.18.0.1:33012] PHP   9. MX_Loader->_ci_load() /var/www/html/application/third_party/MX/Loader.php:294
+[Wed Mar 25 10:55:27.480229 2020] [:error] [pid 106] [client 172.18.0.1:33012] PHP  10. include() /var/www/html/application/third_party/MX/Loader.php:351
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.3. Set the 'ServerName' directive globally to suppress this message
+[Thu Mar 26 03:00:55.081705 2020] [mpm_prefork:notice] [pid 7] AH00163: Apache/2.4.25 (Debian) PHP/5.6.40 configured -- resuming normal operations
+[Thu Mar 26 03:00:55.086139 2020] [core:notice] [pid 7] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Thu Mar 26 03:37:26.325130 2020] [:error] [pid 23] [client 172.18.0.1:50114] PHP Parse error:  syntax error, unexpected '}' in /var/www/html/application/modules/cart/controllers/api/Cart_api.php on line 27, referer: http://localhost/cart
+[Thu Mar 26 03:37:26.325463 2020] [:error] [pid 23] [client 172.18.0.1:50114] PHP Stack trace:, referer: http://localhost/cart
+[Thu Mar 26 03:37:26.325850 2020] [:error] [pid 23] [client 172.18.0.1:50114] PHP   1. {main}() /var/www/html/index.php:0, referer: http://localhost/cart
+[Thu Mar 26 03:37:26.326125 2020] [:error] [pid 23] [client 172.18.0.1:50114] PHP   2. require_once() /var/www/html/index.php:315, referer: http://localhost/cart
+[Thu Mar 26 03:39:58.233252 2020] [:error] [pid 11] [client 172.18.0.1:50194] PHP Fatal error:  Call to undefined function push() in /var/www/html/application/modules/cart/controllers/api/Cart_api.php on line 19, referer: http://localhost/cart
+[Thu Mar 26 03:39:58.233630 2020] [:error] [pid 11] [client 172.18.0.1:50194] PHP Stack trace:, referer: http://localhost/cart
+[Thu Mar 26 03:39:58.233923 2020] [:error] [pid 11] [client 172.18.0.1:50194] PHP   1. {main}() /var/www/html/index.php:0, referer: http://localhost/cart
+[Thu Mar 26 03:39:58.234303 2020] [:error] [pid 11] [client 172.18.0.1:50194] PHP   2. require_once() /var/www/html/index.php:315, referer: http://localhost/cart
+[Thu Mar 26 03:39:58.234726 2020] [:error] [pid 11] [client 172.18.0.1:50194] PHP   3. call_user_func_array:{/var/www/html/system/core/CodeIgniter.php:532}() /var/www/html/system/core/CodeIgniter.php:532, referer: http://localhost/cart
+[Thu Mar 26 03:39:58.235093 2020] [:error] [pid 11] [client 172.18.0.1:50194] PHP   4. Cart_api->checkProductStatus() /var/www/html/system/core/CodeIgniter.php:532, referer: http://localhost/cart
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.3. Set the 'ServerName' directive globally to suppress this message
+[Fri Mar 27 01:41:34.967309 2020] [mpm_prefork:notice] [pid 7] AH00163: Apache/2.4.25 (Debian) PHP/5.6.40 configured -- resuming normal operations
+[Fri Mar 27 01:41:34.970490 2020] [core:notice] [pid 7] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Mar 27 04:51:29.058806 2020] [:error] [pid 65] [client 172.18.0.1:39382] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194304 bytes) in /var/www/html/admin/application/modules/store/controllers/Store.php on line 351, referer: http://localhost/admin/store/storeDescription/74
+[Fri Mar 27 04:51:29.059459 2020] [:error] [pid 65] [client 172.18.0.1:39382] PHP Stack trace:, referer: http://localhost/admin/store/storeDescription/74
+[Fri Mar 27 04:51:29.059948 2020] [:error] [pid 65] [client 172.18.0.1:39382] PHP   1. {main}() /var/www/html/admin/index.php:0, referer: http://localhost/admin/store/storeDescription/74
+[Fri Mar 27 04:51:29.060297 2020] [:error] [pid 65] [client 172.18.0.1:39382] PHP   2. require_once() /var/www/html/admin/index.php:315, referer: http://localhost/admin/store/storeDescription/74
+[Fri Mar 27 04:51:29.060638 2020] [:error] [pid 65] [client 172.18.0.1:39382] PHP   3. call_user_func_array:{/var/www/html/admin/system/core/CodeIgniter.php:532}() /var/www/html/admin/system/core/CodeIgniter.php:532, referer: http://localhost/admin/store/storeDescription/74
+[Fri Mar 27 04:51:29.061045 2020] [:error] [pid 65] [client 172.18.0.1:39382] PHP   4. Store->editOtherDocument() /var/www/html/admin/system/core/CodeIgniter.php:532, referer: http://localhost/admin/store/storeDescription/74
+[Fri Mar 27 04:51:29.061414 2020] [:error] [pid 65] [client 172.18.0.1:39382] PHP   5. array_push() /var/www/html/admin/application/modules/store/controllers/Store.php:351, referer: http://localhost/admin/store/storeDescription/74
+[Fri Mar 27 04:53:48.092456 2020] [:error] [pid 68] [client 172.18.0.1:39452] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194304 bytes) in /var/www/html/admin/application/modules/store/controllers/Store.php on line 351, referer: http://localhost/admin/store/storeDescription/74
+[Fri Mar 27 04:53:48.092835 2020] [:error] [pid 68] [client 172.18.0.1:39452] PHP Stack trace:, referer: http://localhost/admin/store/storeDescription/74
+[Fri Mar 27 04:53:48.093285 2020] [:error] [pid 68] [client 172.18.0.1:39452] PHP   1. {main}() /var/www/html/admin/index.php:0, referer: http://localhost/admin/store/storeDescription/74
+[Fri Mar 27 04:53:48.093646 2020] [:error] [pid 68] [client 172.18.0.1:39452] PHP   2. require_once() /var/www/html/admin/index.php:315, referer: http://localhost/admin/store/storeDescription/74
+[Fri Mar 27 04:53:48.093907 2020] [:error] [pid 68] [client 172.18.0.1:39452] PHP   3. call_user_func_array:{/var/www/html/admin/system/core/CodeIgniter.php:532}() /var/www/html/admin/system/core/CodeIgniter.php:532, referer: http://localhost/admin/store/storeDescription/74
+[Fri Mar 27 04:53:48.094311 2020] [:error] [pid 68] [client 172.18.0.1:39452] PHP   4. Store->editOtherDocument() /var/www/html/admin/system/core/CodeIgniter.php:532, referer: http://localhost/admin/store/storeDescription/74
+[Fri Mar 27 04:53:48.094551 2020] [:error] [pid 68] [client 172.18.0.1:39452] PHP   5. array_push() /var/www/html/admin/application/modules/store/controllers/Store.php:351, referer: http://localhost/admin/store/storeDescription/74
+sh: 1: -t: not found
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.3. Set the 'ServerName' directive globally to suppress this message
+[Fri Mar 27 08:42:53.371568 2020] [mpm_prefork:notice] [pid 7] AH00163: Apache/2.4.25 (Debian) PHP/5.6.40 configured -- resuming normal operations
+[Fri Mar 27 08:42:53.372501 2020] [core:notice] [pid 7] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Mar 27 08:43:59.318142 2020] [:error] [pid 12] [client 172.18.0.1:33398] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /var/www/html/system/libraries/Session/drivers/Session_files_driver.php on line 422, referer: http://localhost/member/loginMember
+[Fri Mar 27 08:43:59.318955 2020] [:error] [pid 12] [client 172.18.0.1:33398] PHP Stack trace:, referer: http://localhost/member/loginMember
+[Fri Mar 27 08:43:59.319501 2020] [:error] [pid 12] [client 172.18.0.1:33398] PHP   1. {main}() /var/www/html/index.php:0, referer: http://localhost/member/loginMember
+[Fri Mar 27 08:43:59.320088 2020] [:error] [pid 12] [client 172.18.0.1:33398] PHP   2. require_once() /var/www/html/index.php:315, referer: http://localhost/member/loginMember
+[Fri Mar 27 08:43:59.320571 2020] [:error] [pid 12] [client 172.18.0.1:33398] PHP   3. require_once() /var/www/html/system/core/CodeIgniter.php:411, referer: http://localhost/member/loginMember
+[Fri Mar 27 08:43:59.321084 2020] [:error] [pid 12] [client 172.18.0.1:33398] PHP   4. spl_autoload_call() /var/www/html/system/core/CodeIgniter.php:4, referer: http://localhost/member/loginMember
+[Fri Mar 27 08:43:59.321473 2020] [:error] [pid 12] [client 172.18.0.1:33398] PHP   5. Modules::autoload() /var/www/html/system/core/CodeIgniter.php:4, referer: http://localhost/member/loginMember
+[Fri Mar 27 08:43:59.321978 2020] [:error] [pid 12] [client 172.18.0.1:33398] PHP   6. include_once() /var/www/html/application/third_party/MX/Modules.php:123, referer: http://localhost/member/loginMember
+[Fri Mar 27 08:43:59.322450 2020] [:error] [pid 12] [client 172.18.0.1:33398] PHP   7. require() /var/www/html/application/third_party/MX/Controller.php:3, referer: http://localhost/member/loginMember
+[Fri Mar 27 08:43:59.322897 2020] [:error] [pid 12] [client 172.18.0.1:33398] PHP   8. CI->__construct() /var/www/html/application/third_party/MX/Base.php:60, referer: http://localhost/member/loginMember
+[Fri Mar 27 08:43:59.323412 2020] [:error] [pid 12] [client 172.18.0.1:33398] PHP   9. CI_Controller->__construct() /var/www/html/application/third_party/MX/Base.php:55, referer: http://localhost/member/loginMember
+[Fri Mar 27 08:43:59.323816 2020] [:error] [pid 12] [client 172.18.0.1:33398] PHP  10. MX_Loader->initialize() /var/www/html/system/core/Controller.php:79, referer: http://localhost/member/loginMember
+[Fri Mar 27 08:43:59.324281 2020] [:error] [pid 12] [client 172.18.0.1:33398] PHP  11. CI_Loader->initialize() /var/www/html/application/third_party/MX/Loader.php:65, referer: http://localhost/member/loginMember
+[Fri Mar 27 08:43:59.324633 2020] [:error] [pid 12] [client 172.18.0.1:33398] PHP  12. CI_Loader->_ci_autoloader() /var/www/html/system/core/Loader.php:157, referer: http://localhost/member/loginMember
+[Fri Mar 27 08:43:59.325060 2020] [:error] [pid 12] [client 172.18.0.1:33398] PHP  13. MX_Loader->library() /var/www/html/system/core/Loader.php:1359, referer: http://localhost/member/loginMember
+[Fri Mar 27 08:43:59.325320 2020] [:error] [pid 12] [client 172.18.0.1:33398] PHP  14. MX_Loader->libraries() /var/www/html/application/third_party/MX/Loader.php:153, referer: http://localhost/member/loginMember
+[Fri Mar 27 08:43:59.325756 2020] [:error] [pid 12] [client 172.18.0.1:33398] PHP  15. MX_Loader->library() /var/www/html/application/third_party/MX/Loader.php:190, referer: http://localhost/member/loginMember
+[Fri Mar 27 08:43:59.326268 2020] [:error] [pid 12] [client 172.18.0.1:33398] PHP  16. CI_Loader->_ci_load_library() /var/www/html/application/third_party/MX/Loader.php:173, referer: http://localhost/member/loginMember
+[Fri Mar 27 08:43:59.326608 2020] [:error] [pid 12] [client 172.18.0.1:33398] PHP  17. CI_Loader->_ci_init_library() /var/www/html/system/core/Loader.php:1083, referer: http://localhost/member/loginMember
+[Fri Mar 27 08:43:59.326937 2020] [:error] [pid 12] [client 172.18.0.1:33398] PHP  18. Utils->__construct() /var/www/html/system/core/Loader.php:1285, referer: http://localhost/member/loginMember
+[Fri Mar 27 08:43:59.327262 2020] [:error] [pid 12] [client 172.18.0.1:33398] PHP  19. MX_Loader->library() /var/www/html/application/libraries/Utils.php:12, referer: http://localhost/member/loginMember
+[Fri Mar 27 08:43:59.327464 2020] [:error] [pid 12] [client 172.18.0.1:33398] PHP  20. CI_Loader->_ci_load_library() /var/www/html/application/third_party/MX/Loader.php:173, referer: http://localhost/member/loginMember
+[Fri Mar 27 08:43:59.327784 2020] [:error] [pid 12] [client 172.18.0.1:33398] PHP  21. CI_Loader->_ci_load_library() /var/www/html/system/core/Loader.php:1089, referer: http://localhost/member/loginMember
+[Fri Mar 27 08:43:59.328102 2020] [:error] [pid 12] [client 172.18.0.1:33398] PHP  22. CI_Loader->_ci_load_stock_library() /var/www/html/system/core/Loader.php:1043, referer: http://localhost/member/loginMember
+[Fri Mar 27 08:43:59.328378 2020] [:error] [pid 12] [client 172.18.0.1:33398] PHP  23. CI_Loader->_ci_init_library() /var/www/html/system/core/Loader.php:1178, referer: http://localhost/member/loginMember
+[Fri Mar 27 08:43:59.328652 2020] [:error] [pid 12] [client 172.18.0.1:33398] PHP  24. CI_Session->__construct() /var/www/html/system/core/Loader.php:1285, referer: http://localhost/member/loginMember
+[Fri Mar 27 08:43:59.329190 2020] [:error] [pid 12] [client 172.18.0.1:33398] PHP  25. session_start() /var/www/html/system/libraries/Session/Session.php:143, referer: http://localhost/member/loginMember
+[Fri Mar 27 08:43:59.329593 2020] [:error] [pid 12] [client 172.18.0.1:33398] PHP  26. CI_Session_files_driver->read() /var/www/html/system/libraries/Session/Session.php:143, referer: http://localhost/member/loginMember
+[Fri Mar 27 08:43:59.329949 2020] [:error] [pid 12] [client 172.18.0.1:33398] PHP  27. CI_Session_files_driver::strlen() /var/www/html/system/libraries/Session/drivers/Session_files_driver.php:210, referer: http://localhost/member/loginMember
+[Fri Mar 27 08:43:59.330224 2020] [:error] [pid 12] [client 172.18.0.1:33398] PHP  28. strlen() /var/www/html/system/libraries/Session/drivers/Session_files_driver.php:422, referer: http://localhost/member/loginMember
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.3. Set the 'ServerName' directive globally to suppress this message
+[Fri Mar 27 13:00:39.867064 2020] [mpm_prefork:notice] [pid 7] AH00163: Apache/2.4.25 (Debian) PHP/5.6.40 configured -- resuming normal operations
+[Fri Mar 27 13:00:39.870114 2020] [core:notice] [pid 7] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.3. Set the 'ServerName' directive globally to suppress this message
+[Fri Mar 27 13:06:33.731698 2020] [mpm_prefork:notice] [pid 7] AH00163: Apache/2.4.25 (Debian) PHP/5.6.40 configured -- resuming normal operations
+[Fri Mar 27 13:06:33.732493 2020] [core:notice] [pid 7] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.5. Set the 'ServerName' directive globally to suppress this message
+[Fri Mar 27 19:37:02.095464 2020] [mpm_prefork:notice] [pid 7] AH00163: Apache/2.4.25 (Debian) PHP/5.6.40 configured -- resuming normal operations
+[Fri Mar 27 19:37:02.096629 2020] [core:notice] [pid 7] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Mar 28 03:03:00.695122 2020] [mpm_prefork:notice] [pid 7] AH00163: Apache/2.4.25 (Debian) PHP/5.6.40 configured -- resuming normal operations
+[Sat Mar 28 03:03:00.697271 2020] [core:notice] [pid 7] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
